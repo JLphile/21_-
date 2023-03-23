@@ -1,0 +1,84 @@
+.right-nav {
+  position: fixed;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 0;
+  width: 254px;
+  height: 494px;
+  background: url(../images/right-nav-bg.png) no-repeat top left;
+}
+.right-nav .right-dj{
+  position: relative;
+  left: 20px;
+}
+.right-nav .right-dj p{
+  display: block;
+  position: absolute;
+  top: 37px;
+  left: 12px;
+  width: 88px;
+  height: 36px;
+  font-size: 14px;
+  text-indent: 2px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #62401b;
+  overflow: hidden;
+}
+.right-nav .right-dj p:last-child{
+  top: 57px;
+}
+.right-nav .right-list {
+  position: relative;
+  left: 85px;
+}
+.right-nav .right-list .item {
+  position: relative;
+  width: 117px;
+  height: 38px;
+  background: url(../images/right-all-bg.png) no-repeat;
+}
+
+.right-nav .right-list .item.code {
+  height: 132px;
+  background-position: -243px 0;
+  text-align: center;
+}
+.right-nav .right-list .item.code img {
+  width: 107px;
+  height: 107px;
+  margin-top: 2px;
+}
+.right-nav .right-list .item.wangzheyingdi {
+  margin-top: 1px;
+  background-position: -243px -134px;
+}
+
+.right-nav .right-list .item.wangzheyingdi:hover {
+  background-position: -243px -172px;
+}
+.right-nav .right-list .item.weibo {
+  margin-top: 1px;
+  background-position: -122px -120px;
+}
+.right-nav .right-list .item.weibo:hover {
+  background-position: -122px -240px;
+}
+.right-nav .right-list .item.weibo a {
+  display: block;
+  height: 100%;
+}
+.right-nav .right-list .item.gzh {
+  margin-top: 1px;
+  background-position: -122px -160px;
+}
+.right-nav .right-list .item.gzh:hover {
+  background-position: -122px -200px;
+}
+.right-nav .right-list .item.sph {
+  margin-top: 1px;
+  background-position: -122px 0px;
+}
+.right-nav .right-list .item.sph:hover {
+  background-position: -122px -42px;
+}
